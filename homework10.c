@@ -29,7 +29,7 @@ int front = -1;
 int rear = -1; 
 
 
-int initializeBST(Node** h);
+int initializeBST(Node** h);           /* 이진 탐색 트리를 초기화 하는 함수 */
 void recursiveInorder(Node* ptr);	  /* recursive inorder traversal */
 int insert(Node* head, int key);      /* insert a node to the tree */
 int freeBST(Node* head); /* free all memories allocated to the tree */
@@ -51,8 +51,8 @@ void printStack(); // 출력하는 함수
 
 int main()
 {
-	char command;
-	int key;
+	char command; /* 입력받은 명령어를 저장하는 변수 */
+	int key; /* 입력받은 키 값을 저장하는 변수 */
 	Node* head = NULL;
 
     printf("[----- [김예진]  [2022041035] -----]\n");
