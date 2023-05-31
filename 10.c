@@ -46,7 +46,7 @@ void enQueue(Node* aNode);          // 큐에 노드를 인큐하는 함수
 /* you may add your own defined functions if necessary */
 
 
-void printStack();
+void printStack(); // 출력하는 함수
 
 
 int main()
